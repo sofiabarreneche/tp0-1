@@ -1,0 +1,39 @@
+[INFO] 11:01:08:128 Servidor/(6618:6618): Servidor listo para recibir al cliente
+[INFO] 11:01:27:507 Servidor/(6618:6618): Se conecto un cliente!
+[INFO] 11:01:27:507 Servidor/(6618:6618): Me llego el mensaje valor
+[INFO] 11:01:28:223 Servidor/(6618:6618): Me llegaron los siguientes valores:
+
+[ERROR] 11:01:28:224 Servidor/(6618:6618): el cliente se desconecto. Terminando servidor
+[INFO] 11:02:06:456 Servidor/(6730:6730): Servidor listo para recibir al cliente
+[INFO] 11:02:12:146 Servidor/(6730:6730): Se conecto un cliente!
+[INFO] 11:02:12:146 Servidor/(6730:6730): Me llego el mensaje valor
+[INFO] 11:02:12:321 Servidor/(6730:6730): Me llegaron los siguientes valores:
+
+[ERROR] 11:02:12:321 Servidor/(6730:6730): el cliente se desconecto. Terminando servidor
+[INFO] 11:02:25:493 Servidor/(6778:6778): Servidor listo para recibir al cliente
+[INFO] 11:02:44:511 Servidor/(6778:6778): Se conecto un cliente!
+[INFO] 11:02:44:511 Servidor/(6778:6778): Me llego el mensaje valor
+[INFO] 11:02:44:640 Servidor/(6778:6778): Me llegaron los siguientes valores:
+
+[ERROR] 11:02:44:640 Servidor/(6778:6778): el cliente se desconecto. Terminando servidor
+[INFO] 16:12:05:420 Servidor/(15873:15873): Servidor listo para recibir al cliente
+[INFO] 16:15:59:624 Servidor/(15873:15873): Se conecto un cliente!
+[INFO] 16:15:59:624 Servidor/(15873:15873): Me llego el mensaje valor
+[INFO] 16:16:00:139 Servidor/(15873:15873): Me llegaron los siguientes valores:
+
+[ERROR] 16:16:00:139 Servidor/(15873:15873): el cliente se desconecto. Terminando servidor
+[INFO] 16:16:16:862 Servidor/(16165:16165): Servidor listo para recibir al cliente
+[INFO] 16:16:42:853 Servidor/(16165:16165): Se conecto un cliente!
+[INFO] 16:16:42:853 Servidor/(16165:16165): Me llego el mensaje valor
+[INFO] 16:16:48:032 Servidor/(16165:16165): Me llegaron los siguientes valores:
+
+[ERROR] 16:16:48:032 Servidor/(16165:16165): el cliente se desconecto. Terminando servidor
+[INFO] 16:17:30:767 Servidor/(16274:16274): Servidor listo para recibir al cliente
+[INFO] 16:17:44:720 Servidor/(16274:16274): Se conecto un cliente!
+[INFO] 16:17:44:720 Servidor/(16274:16274): Me llego el mensaje valor
+[INFO] 16:18:04:724 Servidor/(16274:16274): Me llegaron los siguientes valores:
+
+[INFO] 16:18:04:724 Servidor/(16274:16274): hola
+[INFO] 16:18:04:724 Servidor/(16274:16274): como estas?
+[INFO] 16:18:04:724 Servidor/(16274:16274): sguante operativos
+[ERROR] 16:18:04:725 Servidor/(16274:16274): el cliente se desconecto. Terminando servidor

@@ -16,5 +16,6 @@ t_config* iniciar_config(void);
 void leer_consola(t_log*);
 void paquete(int);
 void terminar_programa(int, t_log*, t_config*);
+char* obtener_de_config(t_config*, char*);
 
 #endif /* CLIENT_H_ */
