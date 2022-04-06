@@ -10,6 +10,8 @@
 #include<commons/collections/list.h>
 #include<string.h>
 #include<assert.h>
+#include<pthread.h>
+#include<stdbool.h>
 
 #define IP "127.0.0.1"
 #define PUERTO "4444"
@@ -19,6 +21,12 @@ typedef enum
 	MENSAJE,
 	PAQUETE
 }op_code;
+
+typedef struct
+{
+	int cliente_fd;
+	t_log* logger;
+}args_t;
 
 t_log* logger;
 

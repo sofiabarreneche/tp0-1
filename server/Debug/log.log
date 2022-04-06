@@ -37,3 +37,11 @@
 [INFO] 16:18:04:724 Servidor/(16274:16274): como estas?
 [INFO] 16:18:04:724 Servidor/(16274:16274): sguante operativos
 [ERROR] 16:18:04:725 Servidor/(16274:16274): el cliente se desconecto. Terminando servidor
+[INFO] 18:08:58:252 Servidor/(22532:22532): Servidor listo para recibir al cliente
+[INFO] 18:11:00:552 Servidor/(22532:22532): Se conecto un cliente!
+[INFO] 18:11:00:552 Servidor/(22532:22532): Me llego el mensaje valor
+[INFO] 18:11:32:017 Servidor/(22532:22532): Me llegaron los siguientes valores:
+
+[INFO] 18:11:32:017 Servidor/(22532:22532): hola soy luqui
+[INFO] 18:11:32:017 Servidor/(22532:22532): y tambien esta juli
+[ERROR] 18:11:32:017 Servidor/(22532:22532): el cliente se desconecto. Terminando servidor
