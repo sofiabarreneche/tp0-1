@@ -7,8 +7,9 @@
 #include <commons/log.h>
 #include "utils.h"
 
-void iterator(char* value);
+
+
 void procesar_conexion(void* ars);
-bool server_escuchar(int server_fd,t_log* logger_servidor);
+bool server_escuchar(int ,t_log* );
 
 #endif /* SERVER_H_ */

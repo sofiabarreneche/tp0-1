@@ -1,6 +1,7 @@
 #include "server.h"
 
-int main(void) {
+int main(void)
+{
 	logger = log_create("log.log", "Servidor", 1, LOG_LEVEL_DEBUG);
 
 	int server_fd = iniciar_servidor();
@@ -9,7 +10,7 @@ int main(void) {
 
 	while(server_escuchar(server_fd, logger));
 
-	return EXIT_SUCCESS;
+	return 0;
 }
 
 bool server_escuchar(int server_fd, t_log* logger_servidor)
@@ -24,18 +25,20 @@ bool server_escuchar(int server_fd, t_log* logger_servidor)
 		pthread_create(&hiloServer,NULL,(void*)procesar_conexion,(void*)argsAux);
 		pthread_detach(hiloServer);
 		return true;
+		free(argsAux);
 	}
 
 	return false;
 
 }
 
+
 void procesar_conexion(void* ars)
 {
-
-	void iterator(char* value) {
-		log_info(logger,"%s", value);
-	}
+		void iterator(char* value)
+		{
+				log_info(logger,"%s", value);
+		}
 
 	t_list* lista;
 	args_t* argsAux = (args_t* ) ars;
@@ -43,7 +46,7 @@ void procesar_conexion(void* ars)
 	t_log* logger = argsAux->logger;
 
 	while (1) {
-			int cod_op = recibir_operacion(cliente_fd);
+			op_code cod_op = recibir_operacion(cliente_fd);
 			switch (cod_op) {
 			case MENSAJE:
 				recibir_mensaje(cliente_fd);
@@ -66,7 +69,7 @@ void procesar_conexion(void* ars)
 	}
 
 	free(argsAux);
-	free(lista);
+	list_destroy(lista);
 
 }
 
