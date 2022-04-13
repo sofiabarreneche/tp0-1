@@ -10,6 +10,8 @@
 #include<string.h>
 #include<commons/log.h>
 #include<commons/string.h>
+#include"../../server/src/utils.h"
+#include"../../server/src/server.h"
 
 typedef enum
 {

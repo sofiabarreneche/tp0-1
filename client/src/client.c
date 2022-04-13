@@ -40,6 +40,10 @@ int main(void){
 
 	leer_consola(logger);
 
+
+	int servidorCliente = iniciar_servidor2();
+
+
 	/*---------------------------------------------------PARTE 3-------------------------------------------------------------*/
 
 	// ADVERTENCIA: Antes de continuar, tenemos que asegurarnos que el servidor esté corriendo para poder conectarnos a él

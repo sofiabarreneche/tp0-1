@@ -8,6 +8,8 @@ int main(void)
 	log_info(logger, "Servidor listo para recibir al cliente");
 
 
+	int conexion = crear_conexion(IP2, PUERTO2);
+
 	while(server_escuchar(server_fd, logger));
 
 	return 0;
@@ -28,7 +30,7 @@ bool server_escuchar(int server_fd, t_log* logger_servidor)
 		free(argsAux);
 	}
 
-	return false;
+	else return false;
 
 }
 
@@ -57,7 +59,7 @@ void procesar_conexion(void* ars)
 				list_iterate(lista, (void*) iterator);
 				break;
 			case -1:
-				log_error(logger, "el cliente se desconecto. Terminando servidor");
+				log_error(logger, "el cliente se desconecto.");
 				return;
 			default:
 				log_warning(logger,"Operacion desconocida. No quieras meter la pata");
